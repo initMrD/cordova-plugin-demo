@@ -4,7 +4,7 @@ var pluginDemo = {
     onlyJs: function() {
         alert('I am a plugin');
     },
-    nativeOnly:function(){
+    nativeOnly:function(success,error){
     	exec(success,error,"PluginDemo","nativeOnly", []);
     }
 
