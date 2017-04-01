@@ -16,5 +16,12 @@
         </config-file>
         <source-file src="src/android/PluginDemo.java" target-dir="src/com/initmrd/cordova/plugin"/>
     </platform>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PluginDemo">
+                <param name="ios-package" value="CDVPluginDemo"/>
+            </feature>
+        </config-file>
+    </platform>
     
 </plugin>
