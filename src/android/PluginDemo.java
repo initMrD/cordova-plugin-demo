@@ -1,4 +1,4 @@
-package org.apache.cordova.demo;
+package com.initmrd.cordova.plugin;
 
 import android.util.Log;
 
