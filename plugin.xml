@@ -22,6 +22,8 @@
                 <param name="ios-package" value="CDVPluginDemo"/>
             </feature>
         </config-file>
+        <header-file src="src/ios/CDVPluginDemo.h"/>
+        <source-file src="src/ios/CDVPluginDemo.m"/>
     </platform>
     
 </plugin>
